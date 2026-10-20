@@ -1,0 +1,29 @@
+{
+  "name": "socialpro-szamlazz",
+  "owner": {
+    "name": "SocialPro",
+    "email": "krasznai.gabor@socialpro.hu"
+  },
+  "metadata": {
+    "description": "SocialPro szamlazz.hu invoice plugin for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "socialpro-szamlazz",
+      "source": ".",
+      "description": "Issue, cancel, and fetch Hungarian invoices via the szamlazz.hu Agent API — directly from Claude Code. VAT-aware, with NAV taxpayer lookup and automatic partner cache.",
+      "version": "1.0.0",
+      "author": {
+        "name": "SocialPro",
+        "email": "krasznai.gabor@socialpro.hu"
+      },
+      "homepage": "https://www.socialpro.hu/claude-code-plugins/szamlazz",
+      "repository": "https://github.com/socialproKGCMG/socialpro-szamlazz",
+      "license": "MIT",
+      "keywords": ["claude-code", "invoice", "szamlazz", "hungarian", "accounting", "billing", "nav", "vat"],
+      "category": "integration",
+      "tags": ["invoicing", "hungarian", "api", "accounting"]
+    }
+  ]
+}

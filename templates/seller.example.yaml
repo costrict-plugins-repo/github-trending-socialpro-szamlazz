@@ -1,0 +1,22 @@
+# SOCIALPRO SZAMLAZZ PLUGIN — seller configuration template
+# ----------------------------------------------------------
+# Copy this file to your config directory and fill it in:
+#
+#   macOS:   ~/Library/Application Support/szamlazz/seller.yaml
+#   Linux:   ~/.config/szamlazz/seller.yaml
+#   Windows: %APPDATA%\szamlazz\seller.yaml
+#
+# Or — BETTER — let the plugin fill this file for you automatically.
+# Just run any invoicing command; the first-run flow will ask you 3 questions
+# and create this file interactively (with NAV auto-fill from your tax number).
+
+cegnev: "Your Company Ltd."           # Your company name — the invoice issuer
+irszam: "1111"                         # Postal code
+telepules: "Budapest"                  # City
+cim: "Your Street 1."                  # Street address
+adoszam: "12345678-2-42"               # Hungarian tax number, format: 8-1-2 digits
+bank:
+  nev: "Your Bank Name"                # e.g. "UniCredit Bank"
+  szamlaszam: "12345678-12345678-12345678"  # Bank account — format: 3×8 digits
+email: "billing@yourcompany.example"   # From-address shown on invoices
+kisadozo: false                        # KATA (small-taxpayer) status: true/false

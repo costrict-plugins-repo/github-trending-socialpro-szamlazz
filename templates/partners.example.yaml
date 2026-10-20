@@ -1,0 +1,10 @@
+# SOCIALPRO SZAMLAZZ PLUGIN — partners cache
+# ------------------------------------------
+# This file is managed automatically by the plugin.
+# After each successful invoice, the customer is added here so that future
+# invoices to the same customer can use name-based lookup.
+#
+# Do NOT edit manually unless you know what you are doing.
+# Do NOT commit this file to version control — it contains customer PII.
+
+partners: []

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QueryTaxpayerResponse>
+  <taxpayerValidity>true</taxpayerValidity>
+  <taxpayerData>
+    <taxpayerName>KG CREATIVE MEDIA GROUP KORLÁTOLT FELELŐSSÉGŰ TÁRSASÁG</taxpayerName>
+    <taxpayerShortName>KG CREATIVE MEDIA GROUP KFT.</taxpayerShortName>
+    <taxNumberDetail>
+      <taxpayerId>27947353</taxpayerId>
+      <vatCode>2</vatCode>
+      <countyCode>17</countyCode>
+    </taxNumberDetail>
+    <taxpayerAddressList>
+      <taxpayerAddressItem>
+        <taxpayerAddressType>HQ</taxpayerAddressType>
+        <taxpayerAddress>
+          <countryCode>HU</countryCode>
+          <postalCode>7200</postalCode>
+          <city>Dombóvár</city>
+          <streetName>Ady Endre</streetName>
+          <publicPlaceCategory>utca</publicPlaceCategory>
+          <number>10.</number>
+          <floor>4.</floor>
+          <door>7.</door>
+        </taxpayerAddress>
+      </taxpayerAddressItem>
+    </taxpayerAddressList>
+  </taxpayerData>
+</QueryTaxpayerResponse>

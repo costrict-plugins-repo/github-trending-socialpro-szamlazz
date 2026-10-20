@@ -1,0 +1,38 @@
+{
+  "name": "socialpro-szamlazz",
+  "version": "1.0.0",
+  "description": "Issue, cancel, and fetch Hungarian invoices via the szamlazz.hu Agent API — directly from Claude Code. VAT-aware, with NAV taxpayer lookup and automatic partner cache. Cross-platform.",
+  "author": {
+    "name": "SocialPro",
+    "email": "krasznai.gabor@socialpro.hu",
+    "url": "https://www.socialpro.hu"
+  },
+  "homepage": "https://www.socialpro.hu/claude-code-plugins/szamlazz",
+  "repository": "https://github.com/socialproKGCMG/socialpro-szamlazz",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "invoice",
+    "szamlazz",
+    "hungarian",
+    "accounting",
+    "billing",
+    "nav",
+    "vat",
+    "magyar"
+  ],
+  "userConfig": {
+    "agentKey": {
+      "type": "string",
+      "sensitive": true,
+      "description": "Your szamlazz.hu Agent API key. Generate one at szamlazz.hu → Beállítások → Számla Agent kulcsok. Stored securely via your OS credential store (Keychain on macOS, Credential Manager on Windows, Secret Service on Linux).",
+      "required": false
+    },
+    "configDir": {
+      "type": "string",
+      "description": "Optional custom config directory. Defaults: ./.szamlazz/ (project-local), or OS-default (~/Library/Application Support/szamlazz on macOS, %APPDATA%\\szamlazz on Windows, $XDG_CONFIG_HOME/szamlazz on Linux).",
+      "required": false
+    }
+  }
+}
